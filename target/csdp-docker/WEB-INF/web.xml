@@ -1,0 +1,36 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <display-name>HelloWorld</display-name>
+    <servlet-name>hello-world</servlet-name>
+    <servlet-class>com.simpsons.HelloWorldServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <display-name>Consumer</display-name>
+    <servlet-name>consumer-servlet</servlet-name>
+    <servlet-class>com.simpsons.ConsumerServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <display-name>HbasePut</display-name>
+    <servlet-name>hbase-servlet</servlet-name>
+    <servlet-class>com.simpsons.HbasePutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hello-world</servlet-name>
+    <url-pattern>/Hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>consumer-servlet</servlet-name>
+    <url-pattern>/Consumer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hbase-servlet</servlet-name>
+    <url-pattern>/Hbase</url-pattern>
+  </servlet-mapping>
+</web-app>
