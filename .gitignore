@@ -5,26 +5,8 @@ target/
 *.data
 *.redo
 *.iml
-Function/.idea
-Function/*/dependency-reduced-pom.xml
-Function/ipt-cf-storm/core/activemq-data/JmsSpoutTest
-
-### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
-Function/*.iml
-
-## Directory-based project format:
-Function/.idea/
-Function/bom/hanker-bom.iml
-Function/domain/hanker-domain.iml
-Function/images/hanker-images.iml
-dependency-reduced-pom.xml
-hanker-keys.iml
-Function/samza/state/loggedstore
-Function/storm/hanker-storm.iml
-Function/storm-testing/hanker-storm-testing.iml
-Function/storm/activemq-data/JmsSpoutTest
 .settings
 .classpath
 .project
